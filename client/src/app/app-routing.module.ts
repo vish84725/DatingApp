@@ -29,7 +29,7 @@ const routes: Routes = [
   },
   { path : 'errors', component: TestErrorComponent },
   { path : 'not-found', component: NotFoundComponent },
-  { path : 'server-error', component: NotFoundComponent },
+  { path : 'server-error', component: ServerErrorComponent },
   { path : '**', component :  HomeComponent, pathMatch: 'full'},
 
 ];
